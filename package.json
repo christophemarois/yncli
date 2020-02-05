@@ -1,0 +1,32 @@
+{
+  "name": "yncli",
+  "version": "1.0.0",
+  "description": "CLI utility that asks y/n and exists accordingly",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "./index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophemarois/yncli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christophemarois/yncli/issues"
+  },
+  "homepage": "https://github.com/christophemarois/yncli#readme",
+  "keywords": [
+    "nodejs",
+    "yn",
+    "prompt",
+    "confirm"
+  ],
+  "author": "Christophe Marois",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.3.0"
+  }
+}
