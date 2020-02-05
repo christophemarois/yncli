@@ -1,8 +1,10 @@
 {
-  "name": "yncli",
+  "name": "@christophemarois/yncli",
   "version": "1.0.0",
   "description": "CLI utility that asks y/n and exists accordingly",
-  "bin": "index.js",
+  "bin": {
+    "yn": "index.js"
+  },
   "main": "index.js",
   "scripts": {
     "start": "./index.js"
@@ -28,5 +30,6 @@
   "license": "MIT",
   "dependencies": {
     "prompts": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }
